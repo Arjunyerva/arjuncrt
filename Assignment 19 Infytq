@@ -1,0 +1,19 @@
+a=str(input())
+q=int(input())
+dist=int(input())
+if(a=="N"):
+    if(dist < 4):
+        print(q*150+dist*0)
+    elif(3<dist<=6):
+        print(q*150+(dist-3)*3)
+    else:
+        print(q*150+(dist-6)*6+9)
+elif(a=="V"):
+    if(dist < 4):
+        print(q*120+dist*0)
+    elif(3<dist<=6):
+        print(q*120+(dist-3)*3)
+    else:
+        print(q*120+(dist-6)*3)
+else:
+    print(-1)
