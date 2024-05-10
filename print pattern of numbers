@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int n;
+    cin >> n;
+    int i, j;
+   
+    while(i<=n){
+        j=1;
+        while(j<=n){
+            cout << n-j+1;
+            j+=1;
+        }
+        cout << endl;
+        i+=1;
+    }
+}
