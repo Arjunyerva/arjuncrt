@@ -1,0 +1,9 @@
+s=str(input())
+l=[]
+for i in range(len(s)):
+    if s[i].upper() in s:
+        l.append(str(i))
+if l:
+    print(' '.join(l))
+else:
+    print(-1)
