@@ -1,0 +1,11 @@
+def arjun(a):
+    tsum=sum(ord(ch) for ch in a)
+    if(tsum%2==0):
+        return 1
+    else:
+        return 0
+s=input().strip()
+if arjun(s):
+    print(s,"is lucky")
+else:
+    print("not lucky")
