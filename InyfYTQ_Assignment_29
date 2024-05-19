@@ -1,0 +1,19 @@
+def porl(n,a):
+    price=70
+    mileage=10
+    price1=80
+    fuel_need=n/mileage
+    cost_fuel=fuel_need*price
+    revenue=a*price1
+    profit=revenue-cost_fuel
+    if profit  > 0:
+        return profit
+    else:
+        return -1
+n=int(input())
+a=int(input())
+profit=porl(n,a)
+if(profit!=-1):
+    print(profit)
+else:
+    print(-1)
