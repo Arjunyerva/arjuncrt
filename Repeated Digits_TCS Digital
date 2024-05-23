@@ -1,0 +1,7 @@
+n1=int(input())
+n2=int(input())
+count=0
+while(n2>n1):
+    count+=1
+    n1+=1
+print(count)
