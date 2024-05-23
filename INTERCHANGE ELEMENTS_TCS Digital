@@ -1,0 +1,14 @@
+def inter(arr, k):
+    if k >= len(arr) - 2:
+        return "error"
+    arr[k-1],arr[n-k]=arr[n-k],arr[k-1]
+    return arr
+n = int(input())
+k = int(input())
+arr = list(map(int, input().split()))
+if k >= len(arr) - 2:
+    print("error")
+else:
+    reddy = inter(arr, k)
+    yerva = " ".join(map(str, reddy))
+    print(yerva)
