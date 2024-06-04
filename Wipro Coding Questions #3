@@ -1,0 +1,13 @@
+arr=list(map(int,input().split()))
+s=[]
+k=[]
+for i in arr:
+    if i%2==0 :
+        s.append(i)
+        s.sort()
+    else:
+        k.append(i)
+        k.sort()
+n=s+k
+print(" ".join(map(str,n)))
+
