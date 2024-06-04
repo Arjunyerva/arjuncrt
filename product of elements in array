@@ -1,0 +1,6 @@
+arr=list(map(int,input().split()))
+n=int(input())
+a=1
+for i in range(n):
+    a=a*arr[i]
+print(a)
