@@ -1,0 +1,19 @@
+def arjun(a,n):
+    res=[]
+    b=[]
+    for i in a:
+        // check the elements in array zero are not
+        if i!=0:
+            //if element is not zero it moves tores array
+            res.append(i)
+        else:
+            b.append(i)
+    c=res+b
+    return " ".join(map(str,c))
+            
+
+a=list(map(int,input().split()))
+n=len(a)
+//call function
+h=arjun(a,n)
+print(h)
